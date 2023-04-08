@@ -392,13 +392,13 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="p-0 min-h-screen flex flex-row items-center align-middle w-full justify-evenly">
+          <div className="p-0 min-h-screen flex flex-col lg:flex-row items-center align-middle w-full justify-around gap-10">
             <div className="transition-all hover:rotate-6 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tr from-primary-color to-secondary-color">
               <h1 className="font-Arvo font-bold text-xl text-white">
                 WHERE TO FIND US
               </h1>
               <iframe
-                className="mt-5 w-[30vh] h-[60vh] align-middle justify-center rounded-2xl shadow-inner"
+                className="mt-5 min-w-[40vh] min-h-[40vh] align-middle justify-center rounded-2xl shadow-inner lg:w-[30vh] lg:h-[60vh]"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.780865292861!2d125.49752191470989!3d9.784600792999099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301376d0abd3bff%3A0xbe3d0cbd6f776a6a!2sFirst%20Place%20Arcade!5e0!3m2!1sen!2sph!4v1680959755473!5m2!1sen!2sph"
                 style={{ border: "0" }}
                 allowFullScreen=""
@@ -408,13 +408,13 @@ function App() {
             <div className="transition-all hover:scale-110 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-t from-primary-color to-secondary-color">
               <img
                 src={CSO1}
-                className="mt-5 w-full h-[70vh] align-middle justify-center rounded-2xl shadow-inner"></img>
+                className="mt-5 w-[40vh] align-middle justify-center rounded-2xl shadow-inner lg:w-[70vh]"></img>
             </div>
             <div className="transition-all hover:-rotate-6 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tl from-primary-color to-secondary-color">
               <h1 className="font-Arvo font-bold text-xl text-white">
                 THE STORE OPENS AT
               </h1>
-              <div className="mt-5 w-[30vh] h-[60vh] align-middle justify-center items-center rounded-2xl bg-white shadow-inner flex">
+              <div className="mt-5 min-w-[40vh] min-h-[40vh] align-middle justify-center items-center rounded-2xl bg-white shadow-inner flex lg:w-[30vh] lg:h-[60vh]">
                 <h1 className="font-Arvo font-bold text-2xl text-primary-color dark:text-quaternary-color transition">
                   6:00 AM <br />
                   TO <br /> 10:00 PM <br />
