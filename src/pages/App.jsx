@@ -377,7 +377,7 @@ function App() {
                   </h1>
                 </div>
               </div>
-              <div className="-translate-y-40 flex flex-row items-center lg:gap-28 justify-evenly lg:px-48 ">
+              <div className="-translate-y-48 flex lg:flex-row flex-col gap-6 items-center lg:gap-28 justify-evenly lg:px-48 lg:-translate-y-40">
                 <p className="pr-2 font-Lexend font-[300] text-primary-color text-[15px] justify-center lg:text-lg dark:text-accent-color transition">
                   Our coffee is sourced from the finest beans, and we take pride
                   in our <strong>brewing techniques</strong>, ensuring that each
@@ -392,7 +392,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="p-0 min-h-screen flex flex-col lg:flex-row items-center align-middle w-full justify-around gap-10">
+          <div className="p-0 min-h-screen flex flex-col lg:flex-row items-center align-middle w-full justify-around gap-10 mt-20 lg:mt-0">
             <div className="transition-all hover:rotate-6 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tr from-primary-color to-secondary-color">
               <h1 className="font-Arvo font-bold text-xl text-white">
                 WHERE TO FIND US
