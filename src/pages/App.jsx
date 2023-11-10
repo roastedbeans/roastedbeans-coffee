@@ -58,18 +58,18 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className="px-8 select-none flex flex-col pt-16 pb-10 lg:py-16 min-w-screen lg:flex-row justify-evenly items-center gap-8">
-            <div className="max-w-xl mt-10">
+          <div className="select-none flex flex-col pt-12 lg:py-16 min-h-screen gap-0 lg:flex-row justify-evenly items-center">
+            <div className="ml-10 max-w-lg-56 mt-10">
               <img
-                className="transition drop-shadow-md rounded-2xl hover:rotate-2"
+                className="transition drop-shadow-md rounded-xl lg:hover:rotate-2 w-80 lg:w-[30rem]"
                 src={CSI2}></img>
             </div>
-            <div className="mt-10 p-0">
-              <h1 className="transition dark:text-tertiary-color font-extrabold text-2xl font-Arvo">
+            <div className="mt-6 lg:mt-16">
+              <h1 className="transition dark:text-tertiary-color font-extrabold text-xl lg:text-2xl font-Arvo">
                 THE ROASTEDBEANS
               </h1>
-              <div className="mt-10 max-w-2xl border-y-2 border-secondary-color border-solid dark:border-tertiary-color">
-                <p className="transition dark:text-accent-color py-10 px-12 leading-8 text-lg font-Play">
+              <div className="mt-6 mx-10 max-w-2xl border-y-2 border-secondary-color border-solid dark:border-tertiary-color">
+                <p className="transition dark:text-accent-color py-6 px-4 leading-8 text-base lg:text-lg font-Play">
                   Welcome to our coffee shop, where the charm of the past meets
                   the aroma of{" "}
                   <span className="text-secondary-color dark:text-tertiary-color transition">
@@ -90,7 +90,7 @@ function App() {
                   want to linger and savor every sip.
                 </p>
               </div>
-              <div className="flex flex-row w-full items-center gap-8 mt-10 justify-center">
+              <div className="flex flex-row w-full items-center gap-8 my-6 justify-center">
                 <h1 className="font-Arvo text-xl text-primary-color dark:text-tertiary-color transition">
                   Follow Us:
                 </h1>
@@ -111,8 +111,8 @@ function App() {
               We serve you the best
             </h1>
           </div>
-          <div className="h-[660px]">
-            <div className="select-none min-h-[40vh] py-0 px-6 lg:px-20 justify-center">
+          <div className="">
+            <div className="select-none py-0 px-8 lg:px-20 justify-center h-[100vh] lg:h-[90vh]">
               <div className="translate-y-0 pointer-events-none select-none relative z-10 flex flex-row justify-between w-full p-0 m-0">
                 <div className="bg-gradient-to-r from-accent-color to-transparent h-60 w-20 dark:from-quaternary-color transition"></div>
                 <div className="bg-gradient-to-r to-accent-color from-transparent h-60 w-20 dark:to-quaternary-color transition"></div>
@@ -377,7 +377,7 @@ function App() {
                   </h1>
                 </div>
               </div>
-              <div className="-translate-y-48 flex lg:flex-row flex-col gap-6 items-center lg:gap-28 justify-evenly lg:px-48 lg:-translate-y-40">
+              <div className="-translate-y-48 flex lg:flex-row flex-col gap-6 items-center lg:gap-28 justify-evenly lg:px-28 lg:-translate-y-40 mb-10">
                 <p className="pr-2 font-Lexend font-[300] text-primary-color text-[15px] justify-center lg:text-lg dark:text-accent-color transition">
                   Our coffee is sourced from the finest beans, and we take pride
                   in our <strong>brewing techniques</strong>, ensuring that each
@@ -387,39 +387,39 @@ function App() {
                 </p>
                 <img
                   src={coffeeRound}
-                  className="shadow-lg rounded-2xl w-60 h-60 hover:scale-110 transition"
+                  className="shadow-lg rounded-2xl w-60 h-60 lg:hover:scale-110 transition"
                 />
               </div>
             </div>
-          </div>
-          <div className="p-0 min-h-screen flex flex-col lg:flex-row items-center align-middle w-full justify-around gap-10 mt-20 lg:mt-0">
-            <div className="transition-all hover:rotate-6 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tr from-primary-color to-secondary-color">
-              <h1 className="font-Arvo font-bold text-xl text-white">
-                WHERE TO FIND US
-              </h1>
-              <iframe
-                className="mt-5 w-[30vh] h-[30vh] align-middle justify-center rounded-2xl shadow-inner lg:w-[30vh] lg:h-[60vh]"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.780865292861!2d125.49752191470989!3d9.784600792999099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301376d0abd3bff%3A0xbe3d0cbd6f776a6a!2sFirst%20Place%20Arcade!5e0!3m2!1sen!2sph!4v1680959755473!5m2!1sen!2sph"
-                style={{ border: "0" }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div className="transition-all hover:scale-110 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-t from-primary-color to-secondary-color">
-              <img
-                src={CSO1}
-                className="mt-5 w-[30vh] align-middle justify-center rounded-2xl shadow-inner lg:w-[70vh]"></img>
-            </div>
-            <div className="transition-all hover:-rotate-6 rounded-3xl shadow-lg px-10 pb-10 pt-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tl from-primary-color to-secondary-color">
-              <h1 className="font-Arvo font-bold text-xl text-white">
-                THE STORE OPENS AT
-              </h1>
-              <div className="mt-5 w-[30vh] h-[30vh] align-middle justify-center items-center rounded-2xl bg-white shadow-inner flex lg:w-[30vh] lg:h-[60vh]">
-                <h1 className="font-Arvo font-bold text-2xl text-primary-color dark:text-quaternary-color transition">
-                  6:00 AM <br />
-                  TO <br /> 10:00 PM <br />
-                  <br /> EVERYDAY
+            <div className="p-0 flex flex-col lg:flex-row md:p-10 items-center align-middle w-full justify-start lg:justify-evenly md:justify-evenly gap-5 lg:mt-0 ">
+              <div className="transition-all lg:hover:rotate-6 rounded-xl shadow-lg p-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tr from-primary-color to-secondary-color">
+                <h1 className="font-Arvo font-bold text-xl text-white">
+                  WHERE TO FIND US
                 </h1>
+                <iframe
+                  className="mt-5 w-[30vh] h-[30vh] align-middle justify-center rounded-2xl shadow-inner lg:w-[30vh] lg:h-[50vh]"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.780865292861!2d125.49752191470989!3d9.784600792999099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301376d0abd3bff%3A0xbe3d0cbd6f776a6a!2sFirst%20Place%20Arcade!5e0!3m2!1sen!2sph!4v1680959755473!5m2!1sen!2sph"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div className="transition-all lg:hover:scale-105 rounded-xl shadow-lg p-5 justify-start align-middle items-center flex flex-col bg-gradient-to-t from-primary-color to-secondary-color">
+                <img
+                  src={CSO1}
+                  className="w-[30vh] align-middle justify-center rounded-2xl shadow-inner lg:w-[60vh]"></img>
+              </div>
+              <div className="transition-all lg:hover:-rotate-6 rounded-xl shadow-lg p-5 justify-start align-middle items-center flex flex-col bg-gradient-to-tl from-primary-color to-secondary-color">
+                <h1 className="font-Arvo font-bold text-xl text-white">
+                  THE STORE OPENS AT
+                </h1>
+                <div className="mt-3 w-[30vh] h-[30vh] align-middle justify-center items-center rounded-2xl bg-white shadow-inner flex lg:w-[30vh] lg:h-[50vh]">
+                  <h1 className="font-Arvo font-bold text-2xl text-primary-color dark:text-quaternary-color transition">
+                    6:00 AM <br />
+                    TO <br /> 10:00 PM <br />
+                    <br /> EVERYDAY
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
